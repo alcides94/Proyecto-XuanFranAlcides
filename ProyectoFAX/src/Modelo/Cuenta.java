@@ -12,7 +12,7 @@ public class Cuenta {
 		this.estado = true;
 	}
 	
-	Public void transferencia () {
+	public void transferencia () {
 		
 	}
 	
