@@ -14,9 +14,9 @@ public class Operaciones {
 	 */
 	public void transferencias (Cuenta cuentaOrigen, Cuenta cuentaDestino, int cantidad) {
 		
-		cuentaDestino.setCantidad=cuentaDestino.getCantidad+cantidad;
+		cuentaDestino.setCantidad(cuentaDestino.getCantidad() +cantidad);
 		
-		cuentaOrigen.setCantidad=cuentaOrigen.getCantidad-cantidad;
+		cuentaOrigen.setCantidad(cuentaOrigen.getCantidad()-cantidad);
 		
 	}
 	
