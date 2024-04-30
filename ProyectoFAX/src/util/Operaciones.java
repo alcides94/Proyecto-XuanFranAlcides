@@ -32,5 +32,16 @@ public class Operaciones {
 		
 		}
 	
+	/**
+	 * Realiza el cierre de una cuenta 
+	 * 
+	 * @param cuentaDestino	se recibe como parametro el metodo a cancelar
+	 */
+	public void cancelarCuenta (Cuenta cuentaDestino) {
+		
+		cuentaDestino.setEstado(false);
+	
+	}
+	
 	
 }
