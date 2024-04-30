@@ -20,7 +20,17 @@ public class Operaciones {
 		
 	}
 	
-
+	/**
+	 * Realiza un prestamo de dinero en la cuenta de destino enviada
+	 * 
+	 * @param cuentaDestino	se recibe como parametro la cuenta que recibira el dinero
+	 * @param cantidad		recibe la cantidad que recibira de prestamo
+	 */
+	public void prestamo (Cuenta cuentaDestino, int cantidad) {
+			
+			cuentaDestino.setCantidad(cuentaDestino.getCantidad() +cantidad);
+		
+		}
 	
 	
 }
